@@ -16,7 +16,7 @@
     }
   },
   "tasks": {
-    "test": "deno test --unstable -A",
+    "test": "deno test --unstable -A --parallel",
     "typecheck": "deno check --unstable ./mod.ts",
     "dnt": ".github/deno-to-node.ts"
   },
